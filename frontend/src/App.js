@@ -86,14 +86,7 @@ const NAV = [
   { id: "reports",   label: "Reports" },
 ];
 
-const PAGE_SUBTITLES = {
-  dashboard: "Overview of your logistics operations",
-  products:  "Manage product catalog and inventory",
-  customers: "Manage your client base",
-  orders:    "Real-time order oversight",
-  reports:   "Analytics and insights",
-  settings:  "System configuration",
-};
+
 
 function NotificationsPanel({ onClose }) {
   const notifications = [
